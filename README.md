@@ -1,5 +1,10 @@
 # Open Source Conveyor - Fusion
 
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![Startup](https://img.shields.io/badge/startup-vc--backed-green)
+![Company](https://img.shields.io/badge/company-KAIKAKU-orange)
+![Maintained](https://img.shields.io/badge/maintained-no%20chance-red)
+
 Access here, in Onshape!
 
 [Open Source Conveyor Belt](https://cad.onshape.com/publications/9120640742d2d27755675fb9/w/c973e2a3aa9155f0db211b78/e/157d0eb66a47e83ecb2cf43a?renderMode=1&uiState=66e1bb9d53f06241e75a077c)
