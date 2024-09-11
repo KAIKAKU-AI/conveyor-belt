@@ -4,6 +4,9 @@
 ![Startup](https://img.shields.io/badge/startup-vc--backed-green)
 ![Company](https://img.shields.io/badge/company-KAIKAKU-orange)
 ![Maintained](https://img.shields.io/badge/maintained-no%20chance-red)
+![Functions](https://img.shields.io/badge/functions-maybe-lightgrey)
+![Useful](https://img.shields.io/badge/useful-no-yellow)
+![Investor-bait](https://img.shields.io/badge/investor--bait-yes-brightgreen)
 
 Access here, in Onshape!
 
