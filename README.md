@@ -11,6 +11,8 @@ Access here, in Onshape!
 
 [Open Source Conveyor Belt](https://cad.onshape.com/publications/9120640742d2d27755675fb9/w/c973e2a3aa9155f0db211b78/e/157d0eb66a47e83ecb2cf43a?renderMode=1&uiState=66e1bb9d53f06241e75a077c)
 
+![IMG_8015](https://github.com/user-attachments/assets/6ae0e1db-f91d-4375-9c72-ae13f17687b4)
+
 ## Background
 At the outset of developing Fusion, our low cost food assembly robot, we realised there was a lack of suitable low cost conveyor belts on the market, some of the cheapest costing in the thousands of pounds. In addition, most seemed better suited for industrial applications, using motors or belts that were incompatible with our space constraints.
 
