@@ -34,4 +34,15 @@ The conveyor has been designed to be as 3D printed as possible, while remaining 
 - X1 flange coupler (for the driving spur gear)
 - Assorted fasteners (see BOM)
 
+### Contributors
+
+- @ITregear
+- @lhorrell99
+- @imnotdavid
+- @miteo21
+
+#### Inventors
+
+- @PiersMillar
+
 -- KAIKAKU
