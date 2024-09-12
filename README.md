@@ -9,7 +9,7 @@
 
 Access here, in Onshape!
 
-[Open Source Conveyor Belt](https://cad.onshape.com/publications/9120640742d2d27755675fb9/w/c973e2a3aa9155f0db211b78/e/157d0eb66a47e83ecb2cf43a?renderMode=1&uiState=66e1bb9d53f06241e75a077c)
+[Open Source Conveyor Belt](https://cad.onshape.com/publications/9120640742d2d27755675fb9/w/c973e2a3aa9155f0db211b78/e/157d0eb66a47e83ecb2cf43a?renderMode=0&uiState=66e2a16a16019f4d8af8b532)
 
 ![IMG_8015](https://github.com/user-attachments/assets/6ae0e1db-f91d-4375-9c72-ae13f17687b4)
 
