@@ -1,10 +1,7 @@
 # Open Source Conveyor - Fusion
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue)
-![Startup](https://img.shields.io/badge/startup-vc--backed-green)
-![Company](https://img.shields.io/badge/company-KAIKAKU-orange)
-![Maintained](https://img.shields.io/badge/maintained-no%20chance-red)
-![Functions](https://img.shields.io/badge/functions-maybe-lightgrey)
+![Maintained](https://img.shields.io/badge/maintained-not%20now-red)
 ![Investor-bait](https://img.shields.io/badge/investor--bait-yes-brightgreen)
 
 Access here, in Onshape!
