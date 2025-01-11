@@ -4,6 +4,36 @@
 ![Maintained](https://img.shields.io/badge/maintained-not%20now-red)
 ![Investor-bait](https://img.shields.io/badge/investor--bait-yes-brightgreen)
 
+## System Architecture
+
+The following diagram illustrates the mechanical and electrical architecture of the conveyor belt system:
+
+![Conveyor Belt Architecture](.github/architecture.png)
+
+### Key Components
+
+#### Mechanical Components
+- **Frame Assembly**: 3030 extrusion providing structural support and mounting points
+- **Drive System**: 37mm DC motor with spur gear for belt propulsion
+- **Roller Assembly**: 8mm steel rods with 688 bearings for belt support
+- **Belt**: Continuous loop conveyor belt for material transport
+
+#### Electrical Components
+- **Power System**: XT60 connector for DC power distribution
+- **Data Interface**: USB-C port for control signal interface
+- **Control PCB**: Interface for motor control and sensor integration
+
+#### 3D Printed Parts
+- **Motor Mount**: Houses motor and gear assembly
+- **End Caps**: Provides belt tensioning and alignment
+- **Side Guides**: Ensures proper belt tracking and support
+
+### Integration Points
+- Power distribution via XT60 connector
+- Control signals through USB-C interface
+- Mounting points for control PCB
+- Sensor integration capabilities (optional)
+
 Access here, in Onshape!
 
 [Open Source Conveyor Belt](https://cad.onshape.com/publications/9120640742d2d27755675fb9/w/c973e2a3aa9155f0db211b78/e/157d0eb66a47e83ecb2cf43a?renderMode=0&uiState=66e2a16a16019f4d8af8b532)

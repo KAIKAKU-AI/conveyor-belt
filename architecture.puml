@@ -1,0 +1,49 @@
+@startuml Conveyor Belt Architecture
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' External actors and systems
+Person(operator, "Operator", "System maintenance and monitoring")
+System_Ext(fusion_system, "Fusion System", "Main robot control system")
+System_Ext(pcb, "Control PCB", "Motor control and sensor interface")
+
+System_Boundary(conveyor, "Conveyor Belt System") {
+    ' Mechanical Components
+    Container(frame, "Frame Assembly", "3030 Extrusion", "Structural support and mounting")
+    Container(drive_system, "Drive System", "37mm DC Motor + Spur Gear", "Belt propulsion mechanism")
+    Container(roller_system, "Roller Assembly", "8mm Steel Rods + 688 Bearings", "Belt support and guidance")
+    Container(belt, "Conveyor Belt", "Continuous Loop Belt", "Material transport surface")
+    
+    ' Electrical Components
+    Container(power_system, "Power System", "XT60 Connector", "DC power distribution")
+    Container(data_interface, "Data Interface", "USB-C Port", "Control signal interface")
+    
+    ' Printed Components
+    Container(motor_mount, "Motor Mount", "3D Printed", "Motor and gear housing")
+    Container(end_caps, "End Caps", "3D Printed", "Belt tensioning and alignment")
+    Container(side_guides, "Side Guides", "3D Printed", "Belt tracking and support")
+}
+
+' External relationships
+Rel(operator, frame, "Maintains")
+Rel(fusion_system, pcb, "Controls")
+Rel(pcb, power_system, "Powers")
+Rel(pcb, data_interface, "Controls")
+
+' Internal mechanical relationships
+Rel(frame, motor_mount, "Supports")
+Rel(frame, end_caps, "Mounts")
+Rel(frame, side_guides, "Guides")
+
+Rel(drive_system, motor_mount, "Houses in")
+Rel(drive_system, belt, "Drives")
+
+Rel(roller_system, end_caps, "Mounts to")
+Rel(roller_system, belt, "Supports")
+
+' Internal electrical relationships
+Rel(power_system, drive_system, "Powers")
+Rel(data_interface, drive_system, "Controls")
+
+@enduml
